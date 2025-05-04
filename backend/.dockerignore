@@ -1,0 +1,49 @@
+# Ignore virtual environment
+venv/
+env/
+*.egg-info/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore Django migration files (optional - can be needed in some cases)
+*/migrations/
+
+# Ignore database files (if you're using SQLite locally)
+*.sqlite3
+
+# Ignore log files
+*.log
+
+# Ignore test and coverage files
+*.cover
+.coverage
+nosetests.xml
+coverage.xml
+
+# Ignore IDE/editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore version control files
+.git/
+.gitignore
+
+# Ignore Docker build files
+.dockerignore
+Dockerfile
+
+# Ignore build artifacts
+*.tar.gz
+*.deb
+
+# Ignore tmp and backup files
+*.bak
+*.swp
+*.swo
+*.tmp
+*.zip
